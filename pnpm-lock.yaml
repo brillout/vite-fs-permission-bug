@@ -1,8 +1,5 @@
 lockfileVersion: 5.4
 
-overrides:
-  '@brillout/docpress>vite': npm:@brillout/vite@3.2.2-bugfix-2
-
 importers:
 
   .:
@@ -29,7 +26,7 @@ importers:
       react-dom: ^18.2.0
       typescript: ^4.8.4
     dependencies:
-      '@brillout/docpress': 0.1.8_se7lxagkunlp4luyiouooh4dii
+      '@brillout/docpress': 0.1.8_biqbaboplfbrettd7655fr4n2y
       '@types/node': 17.0.16
       '@types/react': 17.0.39
       '@types/react-dom': 17.0.11
@@ -377,7 +374,7 @@ packages:
     hasBin: true
     dev: true
 
-  /@brillout/docpress/0.1.8_se7lxagkunlp4luyiouooh4dii:
+  /@brillout/docpress/0.1.8_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-T99hkmD5iNAxsUVT5nPRmYrJRC1dqX1w5hGeobQcwT0FnE6AMP341O2ZQWllUfNrX+6SVxdb+ciAjo0pBGTvgg==}
     hasBin: true
     peerDependencies:
@@ -387,7 +384,7 @@ packages:
       '@mdx-js/mdx': 2.0.0
       '@mdx-js/react': 2.0.0_react@18.2.0
       '@mdx-js/rollup': 2.0.0
-      '@vitejs/plugin-react': 2.1.0_wng26z4qkjffcsqt2mctt2vqpe
+      '@vitejs/plugin-react': 2.1.0_vite@3.2.2
       balloon-css: 1.2.0
       express: 4.17.2
       react: 18.2.0
@@ -396,10 +393,9 @@ packages:
       remark-gfm: 3.0.1
       shiki: 0.10.1
       twemoji: 13.1.0
-      vite: /@brillout/vite/3.2.2-bugfix-2_@types+node@17.0.16
-      vite-plugin-ssr: 0.4.38_wng26z4qkjffcsqt2mctt2vqpe
+      vite: 3.2.2
+      vite-plugin-ssr: 0.4.38_vite@3.2.2
     transitivePeerDependencies:
-      - '@types/node'
       - less
       - rollup
       - sass
@@ -465,40 +461,6 @@ packages:
 
   /@brillout/vite-plugin-import-build/0.1.0:
     resolution: {integrity: sha512-zn90Jwy9TKrBSB45ikPMmxvnGRRfrreeGKtb0DWbKrxlFf+0dOPSmPxxgO7EKBahQJAC8XxeUSMKcPwPmR1b4Q==}
-    dev: false
-
-  /@brillout/vite/3.2.2-bugfix-2_@types+node@17.0.16:
-    resolution: {integrity: sha512-G/VPBHr/jNw3gwvH5F2dd5OYD7YEiSgnxVGlNOxH7pWDIaYnu3tKziZlErgKmutS0qKtPiF54ua00QjzXzvBfA==}
-    engines: {node: ^14.18.0 || >=16.0.0}
-    hasBin: true
-    peerDependencies:
-      '@types/node': '>= 14'
-      less: '*'
-      sass: '*'
-      stylus: '*'
-      sugarss: '*'
-      terser: ^5.4.0
-    peerDependenciesMeta:
-      '@types/node':
-        optional: true
-      less:
-        optional: true
-      sass:
-        optional: true
-      stylus:
-        optional: true
-      sugarss:
-        optional: true
-      terser:
-        optional: true
-    dependencies:
-      '@types/node': 17.0.16
-      esbuild: 0.15.9
-      postcss: 8.4.18
-      resolve: 1.22.1
-      rollup: 2.79.1
-    optionalDependencies:
-      fsevents: 2.3.2
     dev: false
 
   /@esbuild/android-arm/0.15.9:
@@ -1234,7 +1196,7 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /@vitejs/plugin-react/2.1.0_wng26z4qkjffcsqt2mctt2vqpe:
+  /@vitejs/plugin-react/2.1.0_vite@3.2.2:
     resolution: {integrity: sha512-am6rPyyU3LzUYne3Gd9oj9c4Rzbq5hQnuGXSMT6Gujq45Il/+bunwq3lrB7wghLkiF45ygMwft37vgJ/NE8IAA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -1247,7 +1209,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.18.6_@babel+core@7.19.0
       magic-string: 0.26.2
       react-refresh: 0.14.0
-      vite: /@brillout/vite/3.2.2-bugfix-2_@types+node@17.0.16
+      vite: 3.2.2
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -6213,7 +6175,7 @@ packages:
       vfile-message: 3.1.0
     dev: false
 
-  /vite-plugin-ssr/0.4.38_wng26z4qkjffcsqt2mctt2vqpe:
+  /vite-plugin-ssr/0.4.38_vite@3.2.2:
     resolution: {integrity: sha512-gwbbN3AkcvkevsTCbBHzjbW2EkluCxK/0ZTirh65K9VDeoKb/bW2eB0sG65qUm3CPcSDK4mJlXa6Q0wPhmHiWA==}
     engines: {node: '>=12.19.0'}
     hasBin: true
@@ -6228,7 +6190,7 @@ packages:
       picocolors: 1.0.0
       resolve: 1.22.1
       symlink-dir: 5.0.1
-      vite: /@brillout/vite/3.2.2-bugfix-2_@types+node@17.0.16
+      vite: 3.2.2
     dev: false
 
   /vite/3.0.9:
@@ -6286,7 +6248,6 @@ packages:
       rollup: 2.79.1
     optionalDependencies:
       fsevents: 2.3.2
-    dev: true
 
   /vitest/0.22.1:
     resolution: {integrity: sha512-+x28YTnSLth4KbXg7MCzoDAzPJlJex7YgiZbUh6YLp0/4PqVZ7q7/zyfdL0OaPtKTpNiQFPpMC8Y2MSzk8F7dw==}
