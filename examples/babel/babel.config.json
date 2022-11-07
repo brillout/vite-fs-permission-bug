@@ -1,4 +1,0 @@
-{
-  "plugins": ["telefunc/babel"],
-  "presets": ["@babel/preset-env"]
-}
